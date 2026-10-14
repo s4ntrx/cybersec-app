@@ -6,7 +6,7 @@ export default function SiteFooter() {
     <footer className="mt-24 border-t border-line">
       <div className="mx-auto grid max-w-6xl gap-8 px-4 py-10 text-sm text-muted md:grid-cols-3">
         <div className="space-y-2">
-          <p className="font-bold text-white">Cybersecurity Threats Guide</p>
+          <p className="font-bold text-white">Cybersecurity Threats Guide By S4NTRX.sec</p>
           <p>Educational material for defenders. Only test systems you own or have written permission to test.</p>
         </div>
         <nav aria-label="Footer categories">
@@ -25,7 +25,7 @@ export default function SiteFooter() {
           </p>
           <p>
             Content built {formatDate(generatedAt)}
-            {source.commit ? <> from commit <code className="text-ink">{source.commit}</code></> : null}.
+            {source.commit ? <> from commit <code className="text-ink">{source.commit}</code></> : null} By https://github.com/s4ntrx.
           </p>
           <p>MIT licensed.</p>
         </div>
